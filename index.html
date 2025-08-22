@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Delight | Fine Dining Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Gourmet Delight</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Exquisite Dining Experience</h1>
+                <p>Discover the perfect blend of flavor, ambiance, and exceptional service at Gourmet Delight</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">View Menu</a>
+                    <a href="#reservation" class="btn btn-secondary">Book a Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Restaurant Interior">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Founded in 2015, Gourmet Delight has been serving exceptional cuisine in an elegant atmosphere. Our chefs combine traditional techniques with innovative approaches to create memorable dining experiences.</p>
+                    <p>We source the freshest ingredients from local farmers and producers, ensuring that every dish is not only delicious but also supports our community.</p>
+                    <p>Our restaurant has received numerous awards for both our cuisine and our extensive wine collection, featuring over 200 selections from around the world.</p>
+                    <a href="#reservation" class="btn btn-primary">Reserve Your Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="menu-header">
+                <h2 class="section-title">Our Menu</h2>
+                <p>Featuring seasonal specialties and classic favorites</p>
+            </div>
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="all">All</button>
+                <button class="menu-tab" data-category="starters">Starters</button>
+                <button class="menu-tab" data-category="mains">Main Courses</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="drinks">Drinks</button>
+            </div>
+            <div class="menu-grid">
+                <!-- Menu items would go here -->
+                <div class="menu-item" data-category="starters">
+                    <div class="menu-item-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1695297516710-854716c51121?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2Ftb3Nhc3xlbnwwfHwwfHx8MA%3D%3D" alt="samosas">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">samosas</h3>
+                            <span class="menu-item-price">$5</span>
+                        </div>
+                        <p class="menu-item-desc">Lightly fried served with meats</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+                <!-- mains  -->
+
+ <div class="menu-item" data-category="mains">
+                    <div class="menu-item-img">
+                        <img src="https://media.istockphoto.com/id/2201077840/photo/jollof-rice-served-with-garnished-goat-meat.webp?a=1&b=1&s=612x612&w=0&k=20&c=bCmirQ92qdqlpRx7Gy4t9WLkvpH4mhCxrqUj2shH3xA=" alt="jollof rice">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">jollof rice</h3>
+                            <span class="menu-item-price">$20</span>
+                        </div>
+                        <p class="menu-item-desc">jollof rice served with garnished goat meat</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+                 <div class="menu-item" data-category="mains">
+                    <div class="menu-item-img">
+                        <img src="https://media.istockphoto.com/id/1398351215/photo/egusi-soup-with-fufu-pounded-yam.webp?a=1&b=1&s=612x612&w=0&k=20&c=bpowb3HCg76MVl13_tkTih9ByUbnfLby2163db1qXso=" alt="Calamari">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">egusi soup with fufu pounded yam</h3>
+                            <span class="menu-item-price">$25</span>
+                        </div>
+                        <p class="menu-item-desc">egusi soup with fufu pounded yam</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="mains">
+                    <div class="menu-item-img">
+                        <img src="https://media.istockphoto.com/id/2154268555/photo/asian-chicken-fried-rice-comfort-food-takeaway-food-top-down-rice-dish-photography.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y2qaDNcEUamRMoa-vJw4Ulp_CE8fZFXyrkAw1vAIAdg=" alt="fried rice">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">fried rice</h3>
+                            <span class="menu-item-price">$20</span>
+                        </div>
+                        <p class="menu-item-desc">very nice and delicious to fit your taste</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="mains">
+                    <div class="menu-item-img">
+                        <img src="https://media.istockphoto.com/id/1975701807/photo/bucatini-pasta-with-tomato-sauce-and-basil-leaves.webp?a=1&b=1&s=612x612&w=0&k=20&c=PQQtlgTkiDpbW6e-_3lLGttJbnAAqLzVEGcgNbxDEC4=" alt="jollof rice">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">pasta</h3>
+                            <span class="menu-item-price">$20</span>
+                        </div>
+                        <p class="menu-item-desc">pasta with tomato sauce and basil leaves</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+
+                                <!-- desserts menus  -->
+
+   <div class="menu-item" data-category="desserts">
+                    <div class="menu-item-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1701294051267-3b049a801b6a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRlc3NlcnR8ZW58MHx8MHx8fDA%3D" alt="Cakes">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">cakes</h3>
+                            <span class="menu-item-price">$45</span>
+                        </div>
+                        <p class="menu-item-desc">slice, full cake all available </p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+<div class="menu-item" data-category="desserts">
+                    <div class="menu-item-img">
+                        <img src="https://media.istockphoto.com/id/1171946922/photo/feet.webp?a=1&b=1&s=612x612&w=0&k=20&c=L4PThvMSLV9Q6MiJRyOsGQmD70usDkwoM0rwwKqVbgM=" alt="pie">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">pie</h3>
+                            <span class="menu-item-price">$10</span>
+                        </div>
+                        <p class="menu-item-desc">a very yummy meat pie</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aWNlJTIwY3JlYW18ZW58MHx8MHx8fDA%3D" alt="ice cream">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">ice cream</h3>
+                            <span class="menu-item-price">$15</span>
+                        </div>
+                        <p class="menu-item-desc"></p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts">
+                    <div class="menu-item-img">
+                        <img src="https://media.istockphoto.com/id/2207606205/photo/healthy-yogurt-parfait-with-granola-and-bananas-in-drinking-glass-close-up.webp?a=1&b=1&s=612x612&w=0&k=20&c=0hnktKqT2oGGtnBQLsSatWTOVY2jKu95s53baWpNsbY=" alt="perfait">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">perfait</h3>
+                            <span class="menu-item-price">$16</span>
+                        </div>
+                        <p class="menu-item-desc">healthy yogurt parfait with granola and bananas in drinking glass </p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+<!-- drinks menus  -->                
+   <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1659882617003-4a0c077e2768?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90JTIwY29mZmV8ZW58MHx8MHx8fDA%3D" alt="drinks">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">hot drinks</h3>
+                            <span class="menu-item-price">$10</span>
+                        </div>
+                        <p class="menu-item-desc">coffe </p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+                
+  <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1527960471264-932f39eb5846?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29kYXxlbnwwfHwwfHx8MA%3D%3D" alt="cold drinks">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">sodas</h3>
+                            <span class="menu-item-price">$14</span>
+                        </div>
+                        <p class="menu-item-desc"></p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+                
+                <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1595977514600-72cbc8376c38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9ja3RhaWxzfGVufDB8fDB8fHww" alt="cold drinks">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">mocktails</h3>
+                            <span class="menu-item-price">$9</span>
+                        </div>
+                        <p class="menu-item-desc">all types of mocktails available</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+            <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2luZXN8ZW58MHx8MHx8fDA%3D" alt="cold drinks">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">wines</h3>
+                            <span class="menu-item-price">$30</span>
+                        </div>
+                        <p class="menu-item-desc">rose wines and champagne</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-img">
+                        <img src="https://images.unsplash.com/photo-1716339140135-7857cec3d01b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RvdXRzfGVufDB8fDB8fHww" alt="cold drinks">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3 class="menu-item-title">alcoholic drinks</h3>
+                            <span class="menu-item-price">$25</span>
+                        </div>
+                        <p class="menu-item-desc">stouts</p>
+                        <a href="#" class="menu-item-order">Order Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="gallery-header">
+                <h2 class="section-title">Our Gallery</h2>
+                <p>A glimpse of our restaurant and dishes</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Restaurant">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus gallery-icon"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D" alt="Restaurant">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus gallery-icon"></i>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <h2 class="section-title">What Our Guests Say</h2>
+                <p>Hear from our satisfied customers</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p class="testimonial-text">The best dining experience I've had this year! The food was exceptional, and the service was impeccable. Will definitely be returning soon.</p>
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson" class="client-img">
+                        <div class="client-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Food Critic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                           
+             </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation-container">
+                <h2 class="section-title">Make a Reservation</h2>
+                <p>Book your table online and secure your dining experience</p>
+                <form class="reservation-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" required>
+                            <option value="" disabled selected>Number of Guests</option>
+                            <option>1 Person</option>
+                            <option>2 People</option>
+                            <option>3 People</option>
+                            <option>4 People</option>
+                            <option>5+ People</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-group-full">
+                        <textarea class="form-control" placeholder="Special Requests" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <a href="#" class="logo">Gourmet Delight</a>
+                    </div>
+                    <p>Experience the finest dining with exceptional service and atmosphere.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Menu Categories</h3>
+                    <ul>
+                        <li><a href="#">Starters</a></li>
+                        <li><a href="#">Main Courses</a></li>
+                        <li><a href="#">Desserts</a></li>
+                        <li><a href="#">Drinks</a></li>
+                        <li><a href="#">Specials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>123 Gourmet Street, Foodville</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>(123) 456-7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>info@gourmetdelight.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <p>Mon-Sat: 5PM - 11PM<br>Sun: 4PM - 10PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Gourmet Delight Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
